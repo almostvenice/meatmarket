@@ -16,3 +16,7 @@ h1, h2, h3 {
     list-style-type:none;
     text-decoration:none;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
