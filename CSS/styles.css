@@ -16,7 +16,16 @@ h1, h2, h3 {
     list-style-type:none;
     text-decoration:none;
 }
-body{
-    margin: 0;
-    padding: 0;
+
+img {
+    max-width: 100%; 
+    max-height: auto;
+    object-fit: contain;
 }
+ .container {
+    max-width: 1140vmax;
+    margin: 0px;    ;
+ } 
+ 
+
+
