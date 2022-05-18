@@ -26,6 +26,15 @@ img {
     max-width: 1140vmax;
     margin: 0px;    ;
  } 
- 
+
+ .carousel-inner{
+     border-bottom: solid black 5px;
+ }
+ body {
+     background-image: url("homepagebg1.jpg");
+     background-size: cover
+     ;
+    
+ }
 
 
