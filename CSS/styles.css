@@ -1,0 +1,31 @@
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+.navbar {
+    background-color: rgb(49, 29, 29);
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #f36d6d, #efd3d3);
+    color: white;
+}
+.my-nav li {
+    list-style-type:none;
+    text-decoration:none;
+}
+
+img {
+    max-width: 100%; 
+    max-height: auto;
+    object-fit: contain;
+}
+ .container {
+    max-width: 1140vmax;
+    margin: 0px;    ;
+ } 
+ 
+
+
