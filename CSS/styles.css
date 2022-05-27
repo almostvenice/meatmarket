@@ -73,3 +73,21 @@ img {
 #where-to{
     font-size: 28px;
 }
+#meetTheFam {
+    margin-bottom: 5px;
+}
+.familyInfo {
+    font-size: 45px;
+    border-bottom: 5px solid black;
+}
+#comunityFam{
+    margin-top: 90px;
+}
+#pic1{
+    border: 2px solid black;
+    margin-top: 45px;
+}
+#pic2{
+    border: 2px solid black;
+    margin-bottom: 12px;
+}
