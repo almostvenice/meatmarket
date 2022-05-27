@@ -1,15 +1,16 @@
 h1, h2, h3 {
     font-family: "Lobster", cursive;
+    color: red;
 }
 
 .navbar {
-    background-color: rgb(49, 29, 29);
+    background-color: rgb(74, 71, 71);
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #f36d6d, #efd3d3);
+    background-image: linear-gradient(to right, white, #c0bdbd);
     color: white;
 }
 .my-nav li {
@@ -31,9 +32,7 @@ img {
         border-bottom: solid black 5px;
     }
     body {
-        background-image: url("homepagebg1.jpg");
-        background-size: cover
-        ;
+        background-color: white;
     }
     iframe {
         margin-top: 51px;
