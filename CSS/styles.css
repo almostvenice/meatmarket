@@ -10,7 +10,7 @@ h1, h2, h3 {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, white, #c0bdbd);
+    background-image:linear-gradient(to right, white)
     color: white;
 }
 .my-nav li {
@@ -94,4 +94,18 @@ img {
 .menuLnk{
     text-align: center;
     margin-bottom: 60px;
+}
+.homep{
+    
+    font-size: 30px;
+}
+.est1{
+    text-align: center;
+    margin-top: 200px;
+}
+#estcon{
+    font-size: 30px;
+}
+.est2{
+    margin-top: 250px;
 }
