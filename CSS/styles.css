@@ -9,8 +9,8 @@ h1, h2, h3 {
 
 .jumbotron {
     margin: 0;
-    padding: 30px;
-    background-image:linear-gradient(to right, white)
+    padding: 0px;
+    background-image:linear-gradient(to right, white);
     color: white;
 }
 .my-nav li {
@@ -19,53 +19,53 @@ h1, h2, h3 {
 }
 
 img {
-    max-width: 100%; 
-    max-height: auto;
-    object-fit: contain;
-    }
-    .container {
-        max-width: 1140vmax;
-        margin: 0px;    ;
-    } 
+max-width: 100%; 
+max-height: auto;
+object-fit: contain;
+}
+.container {
+    max-width: 1140vmax;
+    margin: 0px;    ;
+} 
 
-    .carousel-inner{
-        border-bottom: solid black 5px;
+.carousel-inner{
+    border-bottom: solid black 5px;
+}
+body {
+    background-color: white;
+}
+iframe {
+    margin-top: 51px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    padding: 15px;
     }
-    body {
-        background-color: white;
-    }
-    iframe {
-        margin-top: 51px;
-        margin-bottom: 30px;
-        margin-left: 70px;
-        padding: 15px;
-        }
-    .visit{
-        color: red;
-        text-align: center;
-        
-        }
-        .feedback{
-            color: red;
-        }
+.visit{
+    color: red;
+    text-align: center;
     
-
-    .map-info {
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        margin: 10px;
-        margin-left: 20px;
-        
-        text-align: center;
-        
     }
-    .contact{
+    .feedback{
         color: red;
-        text-align: center;
     }
-    #contact {
-        background-color: rgba(0, 0, 0, 0.5);
-    }
+
+
+.map-info {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 10px;
+    margin-left: 20px;
+    
+    text-align: center;
+    
+}
+.contact{
+    color: red;
+    text-align: center;
+}
+#contact {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .email{
     color: white;
     text-align: center;
@@ -108,4 +108,32 @@ img {
 }
 .est2{
     margin-top: 250px;
+}
+
+/* Menu Page Carousel */
+#menuCarousel .carousel-item {
+    width: 600px;
+    height: 400px;
+}
+
+.menuC img {
+    position: relative;
+    width: 50%;
+}
+#menuCContainer {
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/* Issues with images being too low on the Menu Carousel */
+.fixHigh {
+    top: -75px;
+}
+.fixHigher {
+    top: -200px;
+}
+
+.fixHigher2 {
+    top: -300px;
 }

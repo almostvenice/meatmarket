@@ -19,8 +19,8 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="offset-4 col-5 col-sm-5 col-md-4 col-lg-4 align-self-center">
-                    <a href="index.html"><img src="/images/LFCblackLogo2.png" class="img-fluid" height="200"
+                <div class="col text-center align-self-center">
+                    <a href="index.html"><img src="/images/LFCblackLogo2.png" height="200"
                             alt="Butcher Shop Logo"></a>
                 </div>
             </div>
@@ -46,7 +46,7 @@
                     </li>
                     <li class="nav-item active"><a class="nav-link mr-5" href="#">Menu</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link mr-5" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link mr-5" href="specials.html">Specials</a></li>
                     <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li>
                 </ul>
             </div>
@@ -122,7 +122,7 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                    Select Steaks
+                                    Sausage
                                 </button>
                                 </h5>
                             </div>
@@ -136,7 +136,7 @@
                             <div class="card-header" id="headingFive">
                                 <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    Thick Cut Pork Chops
+                                    Chicken
                                 </button>
                                 </h5>
                             </div>
@@ -150,7 +150,7 @@
                             <div class="card-header" id="headingSix">
                                 <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    Sirloin Steaks
+                                    Bacon
                                 </button>
                                 </h5>
                             </div>
@@ -162,17 +162,37 @@
                         </div>
                     </div>
                 </div>
+                <div id="menuCarousel" class="carousel slide" data-interval="100000" data-ride="carousel">
+                    <div id="menuCContainer" class="carousel-inner border ml-5">
+                        <div id="selectSteaks" class="carousel-item menuC active">
+                            <img class="d-block w-100" src="/images/selectSteaks.jpg" alt="First slide">
+                        </div>
+                        <div id="porkChops" class="carousel-item menuC">
+                            <img class="d-block w-100 fixHigher" src="/images/porkChops.jpg" alt="Second slide">
+                        </div>
+                        <div id="sirloinSteak" class="carousel-item menuC">
+                            <img class="d-block w-100 fixHigher2" src="/images/sirloinSteak.jpg" alt="Third slide">
+                        </div>
+                        <div id="sausage" class="carousel-item menuC">
+                            <img class="d-block w-100" src="/images/sausage.jpg" alt="Fourth slide">
+                        </div>
+                        <div id="chicken" class="carousel-item menuC">
+                            <img class="d-block w-100 fixHigher" src="/images/chicken.jpg" alt="Fifth slide">
+                        </div>
+                        <div id="bacon" class="carousel-item menuC">
+                            <img class="d-block w-100 fixHigh" src="/images/bacon.jpg" alt="Sixth slide">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ipsam!</p>
     </div>
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/scripts.js"></script>
 </body>
 
 </html>
