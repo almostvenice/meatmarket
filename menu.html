@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Latest compiled and minified CSS -->
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-    <link rel="stylesheet" href="css/styles.css" <!-- Optional theme -->
 
     <title>La Familia Carniceria</title>
 </head>
@@ -19,8 +20,18 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="offset-4 col-5 col-sm-5 col-md-4 col-lg-4 align-self-center">
-                    <a href="index.html"><img src="/images/LFCblackLogo2.png" class="img-fluid" height="200"
+                <div class="col-9 col-sm-8 col-md-9 col-lg-10">
+                </div>
+                <div class="col">
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center align-self-center">
+                    <a href="index.html"><img src="/images/LFCblackLogo2.png" height="200"
                             alt="Butcher Shop Logo"></a>
                 </div>
             </div>
@@ -34,7 +45,7 @@
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
             <a href="index.html" class="navbar-brand mr-5"><img src="/images/LFCblackLogo2.png" height="55"
-                    alt="small nucamp logo"></a>
+                    alt="small logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#lfcNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -46,7 +57,7 @@
                     </li>
                     <li class="nav-item active"><a class="nav-link mr-5" href="#">Menu</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link mr-5" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link mr-5" href="specials.html">Specials</a></li>
                     <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li>
                 </ul>
             </div>
@@ -122,7 +133,7 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                    Select Steaks
+                                    Sausage
                                 </button>
                                 </h5>
                             </div>
@@ -136,7 +147,7 @@
                             <div class="card-header" id="headingFive">
                                 <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    Thick Cut Pork Chops
+                                    Chicken
                                 </button>
                                 </h5>
                             </div>
@@ -150,7 +161,7 @@
                             <div class="card-header" id="headingSix">
                                 <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    Sirloin Steaks
+                                    Bacon
                                 </button>
                                 </h5>
                             </div>
@@ -162,17 +173,69 @@
                         </div>
                     </div>
                 </div>
+                <div id="menuCarousel" class="carousel slide" data-interval="100000" data-ride="carousel">
+                    <div id="menuCContainer" class="carousel-inner border ml-5">
+                        <div id="selectSteaks" class="carousel-item menuC active">
+                            <img class="d-block w-100" src="/images/selectSteaks.jpg" alt="First slide">
+                        </div>
+                        <div id="porkChops" class="carousel-item menuC">
+                            <img class="d-block w-100 fixHigher" src="/images/porkChops.jpg" alt="Second slide">
+                        </div>
+                        <div id="sirloinSteak" class="carousel-item menuC">
+                            <img class="d-block w-100 fixHigher2" src="/images/sirloinSteak.jpg" alt="Third slide">
+                        </div>
+                        <div id="sausage" class="carousel-item menuC">
+                            <img class="d-block w-100" src="/images/sausage.jpg" alt="Fourth slide">
+                        </div>
+                        <div id="chicken" class="carousel-item menuC">
+                            <img class="d-block w-100 fixHigher" src="/images/chicken.jpg" alt="Fifth slide">
+                        </div>
+                        <div id="bacon" class="carousel-item menuC">
+                            <img class="d-block w-100 fixHigh" src="/images/bacon.jpg" alt="Sixth slide">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    
+    <hr>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="specials.html">Specials</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+                </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ipsam!</p>
-    </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> (602)-392-0904</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:meatmarket@gmail.com"><i class="fa fa-envelope-o"></i> meatmarket@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/scripts.js"></script>
+    <!-- endbuild -->
 </body>
 
 </html>
