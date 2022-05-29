@@ -18,3 +18,11 @@ npm install --save-dev imagemin-cli@5.1.0
 npm install --save-dev usemin-cli@0.6.0
 
 npm install --save-dev rimraf@3.0.2
+
+
+PACKAGES NEEDED FOR SOME PAGES:
+
+BOOTSTRAP
+BOOTSTRAP-SPCOAL
+JQUERY
+POPPER.JS
