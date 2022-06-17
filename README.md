@@ -6,7 +6,4 @@ We will link the site to Google Maps to further their engagement in the communit
 
 PACKAGES NEEDED FOR SOME PAGES:
 
-BOOTSTRAP
-BOOTSTRAP-SPCOAL
-JQUERY
-POPPER.JS
+BOOTSTRAP|BOOTSTRAP-SOCIAL|JQUERY|POPPER.JS
